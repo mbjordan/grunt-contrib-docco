@@ -7,7 +7,7 @@ function doccoTask(grunt) {
     grunt.registerMultiTask('docco', 'Docco Contrib', function() {
         var done = this.async();
 
-        // These have *not* been tested!
+        // These have not *yet* been tested!
         this.options.layout    = this.options.layout    || null;
         this.options.css       = this.options.css       || null;
         this.options.output    = this.options.output    || null;
