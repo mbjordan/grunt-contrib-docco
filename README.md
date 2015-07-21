@@ -1,6 +1,6 @@
-# grunt-contrib-docco
+> This is a beta release and should not be used in it's current state.
 
-> This is a beta release. Should not use at this point.
+# grunt-contrib-docco
 
 Grunt task to create [Docco](http://jashkenas.github.io/docco/) documentation.
 
@@ -8,13 +8,13 @@ Grunt task to create [Docco](http://jashkenas.github.io/docco/) documentation.
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
-```shell
-npm install grunt-contrib-docco --save-dev
+```
+npm install --save-dev grunt-contrib-docco
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
-```js
+```javascript
 grunt.loadNpmTasks('grunt-contrib-docco');
 ```
 
