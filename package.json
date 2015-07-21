@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-docco",
   "version": "0.0.0-beta",
-  "description": "",
+  "description": "A Docco task for Grunt that includes all native Docco options",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/mbjordan/grunt-contrib-docco.git"
   },
-  "author": "",
+  "author": "Matt Jordan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mbjordan/grunt-contrib-docco/issues"
