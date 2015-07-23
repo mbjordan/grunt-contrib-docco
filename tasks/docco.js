@@ -18,10 +18,11 @@ function processOptions(context) {
 }
 
 function getOptions(context) {
-    for (var i = 0; i < optionsArr.length; i++) {
-        context.options[optionsArr[i]] = context.options[optionsArr[i]] || null;
+    var idx = 0;
+    while (idx < optionsArr.length) {
+        context.options[optionsArr[idx]] = context.options[optionsArr[idx]] || null;
+        idx += 1;
     }
-
     return processOptions(context);
 }
 
